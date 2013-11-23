@@ -1,0 +1,172 @@
+body {
+	color: #3D4015;
+	background-color: #E6CC91;
+}
+
+img {
+	margin: 10px;
+}
+
+p {
+	text-indent: 1em;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #3D4015;
+}
+
+a {
+	color: #921C22;
+	text-decoration: none;
+}
+
+td,th {
+	border: 2px #3D4015 solid;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	width: 50em;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#top {
+	background: #F0DEB0;
+}
+
+#nav {
+}
+
+#info {
+	padding: 20px;
+	background: #F0DEB0;
+}
+
+
+#foot {
+}
+
+#mainpic {
+	width: 50em;
+	margin: 0;
+}
+
+#menu {
+	width: 50em;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#submenu {
+	width: 50em;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#menu li {
+	width: 12.5%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#submenu li {
+	width: 25%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+a.menu {
+	width: auto;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+	text-decoration: none;
+	display: block;
+	background: #512C1C;
+}
+
+a.here {
+	width: auto;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+	text-decoration: none;
+	display: block;
+	background: #921C22;
+}
+
+a.menu:hover {
+	background: #921C22;
+}
+
+a.here:hover {
+	background: #921C22;
+}
+
+a.submenu {
+	width: auto;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+	text-decoration: none;
+	display: block;
+	background: #921C22;
+}
+
+a.subhere {
+	width: auto;
+	color: #921C22;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+	text-decoration: none;
+	display: block;
+	background: #ffffff;
+}
+
+a.submenu:hover {
+	background: #ffffff;
+	color: #921C22;
+}
+
+a.subhere:hover {
+	background: #ffffff;
+	color: #921C22;
+}
+
+.left {
+	clear: right;
+	float: left;
+}
+
+.right {
+	clear: left;
+	float: right;
+}
+
+.member {
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.list {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
