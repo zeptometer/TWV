@@ -3,7 +3,12 @@
 @import url(http://fonts.googleapis.com/css?family=Fenix);
 
 h2 {
-    font: bold 3em Fenix;
+    font: bold 2.5em Fenix;
+}
+
+a {
+    text-decoration: none;
+    color: #47585c;
 }
 
 body {
@@ -24,8 +29,13 @@ header {
 header h1 {
     width: 800px;
     height: 100px;
+    text-align: center;
     margin: 0 auto 0;
     padding: 0;
+    font: bold 4em Fenix;
+    color: white;
+    line-height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 header h1 img {
@@ -38,19 +48,18 @@ nav ul {
     width: 780px;
     height: 1.5em;
     margin: 0.5em 0;
-    padding: 1em 10px 0;
+    padding: 1em 0;
 }
 
 nav li {
     display: table-cell;
-    width: 110px;
     text-align: center;
+    width: 110px;
 }
 
 nav li a {
-    text-decoration: none;
     color: #2a2a2a;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 nav li.here {
@@ -59,6 +68,24 @@ nav li.here {
 
 nav li.here a {
     color: #006e54;
+}
+
+nav#submenu ul {
+    margin-top: -20px;
+}
+
+nav#submenu li {
+    width: 200px;
+    line-height: 1.5em;
+}
+
+nav#submenu li.here {
+    background-color: #000;
+    border: none;
+}
+
+nav#submenu li.here a {
+    color: #f3f3f3;
 }
 
 #main {
