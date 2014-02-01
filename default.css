@@ -14,7 +14,7 @@
 }
 
 h2 {
-    font: bold 2.5em Fenix;
+    font: 2.5em Fenix;
 }
 
 a {
@@ -43,7 +43,7 @@ header h1 {
     text-align: center;
     margin: 0 auto 0;
     padding: 0;
-    font: bold 4em Fenix;
+    font: 4em Fenix;
     color: white;
     line-height: 100px;
     background-color: rgba(0, 0, 0, 0.5);
