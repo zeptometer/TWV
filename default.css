@@ -5,6 +5,13 @@
  * http://www.google.com/fonts/specimen/Fenix
  */
 @import url(http://fonts.googleapis.com/css?family=Fenix);
+             
+@font-face {
+  font-family:'mplus-2c-light';
+  src: url('./fonts/mplus-2c-light-sub.eot') format('eot');
+  src: url('./fonts/mplus-2c-light-sub.woff') format('woff');
+  src: url('./fonts/mplus-2c-light-sub.ttf') format('truetype');
+}
 
 h2 {
     font: bold 2.5em Fenix;
@@ -49,7 +56,7 @@ header h1 img {
 
 nav ul {
     display: table;
-    width: 780px;
+    width: 780px;p
     height: 1.5em;
     margin: 0.5em 0;
     padding: 1em 0;
@@ -63,12 +70,12 @@ nav li {
 
 nav li a {
     color: #2a2a2a;
+    font-family: 'mplus-2c-light';
     font-size: 1em;
-    font-weight: bold;
 }
 
 nav li.here {
-    border-bottom: 3px solid #006e54;
+    border-bottom: 2px solid #006e54;
 }
 
 nav li.here a {
