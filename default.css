@@ -64,10 +64,11 @@ nav li {
 nav li a {
     color: #2a2a2a;
     font-size: 1em;
+    font-weight: bold;
 }
 
 nav li.here {
-    border-bottom: 1px solid #006e54;
+    border-bottom: 3px solid #006e54;
 }
 
 nav li.here a {
