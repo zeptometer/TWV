@@ -8,9 +8,9 @@
              
 @font-face {
   font-family:'mplus-2c-light';
-  src: url('./fonts/mplus-2c-light-sub.eot') format('eot');
-  src: url('./fonts/mplus-2c-light-sub.woff') format('woff');
-  src: url('./fonts/mplus-2c-light-sub.ttf') format('truetype');
+  src: url('../fonts/mplus-2c-light-sub.eot') format('eot');
+  src: url('../fonts/mplus-2c-light-sub.woff') format('woff');
+  src: url('../fonts/mplus-2c-light-sub.ttf') format('truetype');
 }
 
 h2 {
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background: #d3d3d3 url("img/header.png") no-repeat local top;
+    background: #d3d3d3 url("../img/header.png") no-repeat local top;
     overflow: hidden;
     width: 100%;
     height: 100px;

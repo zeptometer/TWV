@@ -1,7 +1,7 @@
 @charset="UTF-8";
 
 header {
-    background: #d3d3d3 url("img/top-header.png") no-repeat local top;
+    background: #d3d3d3 url("../img/top-header.png") no-repeat local top;
     height: 600px;
 }
 
