@@ -1,0 +1,17 @@
+.profile {
+    width: 100%;
+    display: table;
+    margin: 1em 0;
+}
+
+.profile img {
+    width: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.profile .column {
+    display: table-cell;
+    padding: 1em;
+    vertical-align: middle;
+}
