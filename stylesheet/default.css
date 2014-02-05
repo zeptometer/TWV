@@ -122,7 +122,6 @@ nav#submenu li.here a {
     display: table-cell;
     padding: 1em;
     vertical-align: middle;
-    min-width: 400px;
 }
 
 .question {
