@@ -113,9 +113,16 @@ nav#submenu li.here a {
     vertical-align: middle;
 }
 
-.multicolumn .picture {
+.multicolumn .picture300 {
     display: table-cell;
     vertical-align: middle;
+    width: 300px;
+}
+
+.multicolumn .picture400 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 400px;
 }
 
 .multicolumn section {
