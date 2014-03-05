@@ -135,6 +135,10 @@ nav#submenu li.here a {
     font-weight: bold;
 }
 
+dt {
+    color: #606060;
+}
+
 p.copyright {
     display: block;
     margin: 4em 0 -1em;
@@ -142,10 +146,4 @@ p.copyright {
     background: #2a2a2a;
     color: #faf9f4;
     text-align: center;
-}
-
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: block;
 }
