@@ -4,49 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="keywords" content="東京大学ワンダーフォーゲル部,東京大学,ワンダーフォーゲル,TWV,登山,山,沢,藪,藪漕ぎ,雪山,スキー,ワンゲル,東大,山スキー" />
     <title>東京大学ワンダーフォーゲル部</title>
-    <link rel="stylesheet" href="stylesheet/default.css" type="text/css" />
     <link rel="stylesheet" href="stylesheet/top.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheet/glide.css" type="text/css" />
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-47899606-1', 'ut-wandervogel.jp');
-      ga('send', 'pageview');
+     ga('create', 'UA-47899606-1', 'ut-wandervogel.jp');
+     ga('send', 'pageview');
 
     </script>
   </head>
   <body>
-      <header>
-	<h1>univ.Tokyo WanderVogel</h1>
-      </header>
+    <header>
+      <h1>univ.Tokyo WanderVogel</h1>
 
-      <div id="main">
-	<nav>
-	  <ul>
-	    <li class="here"><a href="index.html">Top</a></li>
-	    <li><a href="intro.html">活動内容</a></li>
-	    <li><a href="recruit.html">入部希望者へ</a></li>
-	    <li><a href="member1.html">部員紹介</a></li>
-	    <li><a href="record.html">山行記録</a></li>
-	    <li><a href="access.html">アクセス</a></li>
-	    <li><a href="links.html">リンク集</a></li>
-	  </ul>
-	</nav>
+      <section class="slider">
+	<div class="slides">
+	  <article class="slide slide-southern_alpus">
+	    <span class="location">南アルプス縦走/2012.08</span>
+	  </article>
+	  <article class="slide slide-kuzuha">
+	    <span class="location">葛葉川/2013.04</span>
+	  </article>
+	  <article class="slide slide-asahi">
+	    <span class="location">朝日連峰/2013.09</span>
+	  </article>
+	  <article class="slide slide-joshuhotaka">
+	    <span class="location">上州武尊/2014.01</span>
+	  </article>
+	</div>
+      </section>
+    </header>
 
-	<p>東京大学運動会ワンダーフォーゲル部の公式ウェブサイトへようこそ。</p>
-
-	<h2>News</h2>
+    <div id="main">
+      <nav>
 	<ul>
-	  <li>2014.3.6 「入部希望者へ」を更新しました</li>
-	  <li>2014.1.30 サイトのリニューアル</li>
-	  <li>2013.11.24 部員紹介欄の更新</li>
-	  <li>2013.11.08 移転&amp;リニューアル</li>
+	  <li class="here"><a href="index.html">Top</a></li>
+	  <li><a href="intro.html">活動内容</a></li>
+	  <li><a href="recruit.html">入部希望者へ</a></li>
+	  <li><a href="member1.html">部員紹介</a></li>
+	  <li><a href="record.html">山行記録</a></li>
+	  <li><a href="access.html">アクセス</a></li>
+	  <li><a href="links.html">リンク集</a></li>
 	</ul>
-      </div>
+      </nav>
 
-      <footer><p class="copyright">Copyright&copy; 2014 TWV All rights reserved.</p></footer>
+      <p>東京大学運動会ワンダーフォーゲル部(通称TWV)の公式ウェブサイトへようこそ。</p>
 
+      <h2>News</h2>
+      <ul>
+	<li>2014.3.6 「入部希望者へ」を更新しました</li>
+	<li>2014.1.30 サイトのリニューアル</li>
+	<li>2013.11.24 部員紹介欄の更新</li>
+	<li>2013.11.08 移転&amp;リニューアル</li>
+      </ul>
+
+    </div>
+
+    <footer><p class="copyright">Copyright&copy; 2014 TWV All rights reserved.</p></footer>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="script/jquery.glide.min.js"></script>
+    <script>
+     $('.slider').glide({
+       autoplay: 10000,
+       arrowRightText: '',
+       arrowLeftText: '',
+     });
+    </script>
   </body>
 </html>
