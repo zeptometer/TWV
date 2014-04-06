@@ -4,6 +4,8 @@
 
 header {
     background: #d3d3d3 url("../img/header.png") no-repeat local top;
+    background-position: center;
+    background-size: cover;
     overflow: hidden;
     width: 100%;
     height: 100px;
