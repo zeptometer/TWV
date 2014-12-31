@@ -31,20 +31,20 @@ header h1 {
     color: white;
 }
 
-.slide-asahi {
-    background: url("../img/top-asahi.png");
+.slide-okugake {
+    background: url("../img/top-okugake.png");
 }
 
-.slide-joshuhotaka {
-    background: url("../img/top-joshuhotaka.png");
+.slide-kurobe {
+    background: url("../img/top-kurobe.png");
 }
 
-.slide-southern_alpus {
-    background: url("../img/top-southern_alpus.png");
+.slide-shiramaki {
+    background: url("../img/top-shiramaki.png");
 }
 
-.slide-tosaka {
-    background: url("../img/top-tosaka.png");
+.slide-kamanosawa {
+    background: url("../img/top-kamanosawa.png");
 }
 
 .twitter-timeline {
